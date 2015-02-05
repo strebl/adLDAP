@@ -1,7 +1,7 @@
 {
-	"name": "adldap/adldap",
+	"name": "strebl/adldap",
 	"type": "library",
-	"description": "adLDAP, PHP LDAP library for manipulating Active Directory",
+	"description": "tagged master branch version of adldap/adLDAP",
 	"keywords": [
 		"active directory",
 		"ldap",
