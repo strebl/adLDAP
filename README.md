@@ -1,3 +1,12 @@
+# FORK
+This fork is to reflect the [latest changes](https://github.com/adldap/adLDAP/compare/v4.0.4...ee471d2243124dcf29efd8c079456cc56e2fa6e7) on master to packagist.
+
+Currently on commit [ee471d2243](https://github.com/adldap/adLDAP/commit/ee471d2243124dcf29efd8c079456cc56e2fa6e7) of [adldap/adLDAP](https://github.com/adldap/adLDAP/)
+
+Current release: v4.0.5
+
+I'll delete this repo if they decide to actively develop and tag adldap/adLDAP again.
+
 # PHP LDAP CLASS FOR MANIPULATING ACTIVE DIRECTORY
 
 *Current Stable Version 4.0.0 https://github.com/adldap/adLDAP/releases/tag/v4.0.4*
