@@ -7,6 +7,12 @@
 		"ldap",
 		"windows"
 	],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/clonerworks/adLDAP"
+        }
+    ],
 	"homepage": "http://adldap.sourceforge.net",
 	"license": "LGPL-2.1",
 	"support": {
