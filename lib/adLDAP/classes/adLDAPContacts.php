@@ -1,6 +1,6 @@
 <?php
-namespace adLDAP\classes;
-use adLDAP\adLDAP;
+namespace adLDAP1\classes;
+use adLDAP1\adLDAP;
 /**
  * PHP LDAP CLASS FOR MANIPULATING ACTIVE DIRECTORY 
  * Version 5.0.0
@@ -164,7 +164,7 @@ class adLDAPContacts {
         $info = $this->info($distinguishedName, $fields);
         
         if ($info !== false) {
-            $collection = new \adLDAP\collections\adLDAPContactCollection($info, $this->adldap);
+            $collection = new \adLDAP1\collections\adLDAPContactCollection($info, $this->adldap);
             return $collection;
         }
         return false;

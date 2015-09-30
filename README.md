@@ -1,7 +1,6 @@
 # FORK
-This fork is to reflect the [latest changes](https://github.com/adldap/adLDAP/compare/v4.0.4...ee471d2243124dcf29efd8c079456cc56e2fa6e7) on master to packagist.
-
-Currently on commit [ee471d2243](https://github.com/adldap/adLDAP/commit/ee471d2243124dcf29efd8c079456cc56e2fa6e7) of [adldap/adLDAP](https://github.com/adldap/adLDAP/)
+This fork was created to change the namespace from adldap to adldap1 to allow user with adldap2 proejct which shared the same namespace:
+https://github.com/Adldap2/Adldap2
 
 Current release: v4.0.5
 
@@ -48,7 +47,7 @@ From within your code simply require the adLDAP.php file and call it like so
 
 It would be better to wrap it in a try/catch though
 
-    use \adLDAP;
+    use \adLDAP1;
     try {
         $adldap = new adLDAP();
     }

@@ -1,6 +1,6 @@
 <?php
-namespace adLDAP\classes;
-use adLDAP\adLDAP;
+namespace adLDAP1\classes;
+use adLDAP1\adLDAP;
 /**
  * PHP LDAP CLASS FOR MANIPULATING ACTIVE DIRECTORY 
  * Version 5.0.0
@@ -484,7 +484,7 @@ class adLDAPGroups {
     * 
     * @param string $groupName The group name to retrieve info about
     * @param array $fields Fields to retrieve
-    * @return \adLDAP\collections\adLDAPGroupCollection
+    * @return \adLDAP1\collections\adLDAPGroupCollection
     */
     public function infoCollection($groupName, $fields = NULL) {
         if ($groupName === NULL) { return false; }
@@ -492,7 +492,7 @@ class adLDAPGroups {
         
         $info = $this->info($groupName, $fields);
         if ($info !== false) {
-            $collection = new \adLDAP\collections\adLDAPGroupCollection($info, $this->adldap);
+            $collection = new \adLDAP1\collections\adLDAPGroupCollection($info, $this->adldap);
             return $collection;
         }
         return false;

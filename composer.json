@@ -1,7 +1,7 @@
 {
-	"name": "strebl/adldap",
+	"name": "clonerworks/adldap",
 	"type": "library",
-	"description": "tagged master branch version of adldap/adLDAP",
+	"description": "Forked version of adldap/adLDAP",
 	"keywords": [
 		"active directory",
 		"ldap",

@@ -1,5 +1,5 @@
 <?
-use adLDAP\adLDAP;
+use adLDAP1\adLDAP;
 /*
 Examples file
 

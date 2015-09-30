@@ -7,6 +7,9 @@ http://adldap.sourceforge.net/
 
 CHANGELOG
 -------------------------------------------------------------------------------------------
+Version 4.0.5
+-------------
+[+] Namespace Fix: Change default namespace from adldap to adldap1 to allow for project user with the adldap2 project - https://github.com/Adldap2/Adldap2
 
 Version 4.0.4
 -------------

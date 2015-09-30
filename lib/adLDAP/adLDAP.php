@@ -1,5 +1,5 @@
 <?php
-namespace adLDAP;
+namespace adLDAP1;
 /**
  * PHP LDAP CLASS FOR MANIPULATING ACTIVE DIRECTORY 
  * Version 5.0.0
@@ -224,18 +224,18 @@ class adLDAP {
     /**
     * The group class
     * 
-    * @var \adLDAP\classes\adLDAPGroups
+    * @var \adLDAP1\classes\adLDAPGroups
     */
     protected $groupClass;
     
     /**
     * Get the group class interface
     * 
-    * @return \adLDAP\classes\adLDAPGroups
+    * @return \adLDAP1\classes\adLDAPGroups
     */
     public function group() {
         if (!$this->groupClass) {
-            $this->groupClass = new \adLDAP\classes\adLDAPGroups($this);
+            $this->groupClass = new \adLDAP1\classes\adLDAPGroups($this);
         }   
         return $this->groupClass;
     }
@@ -243,18 +243,18 @@ class adLDAP {
     /**
     * The user class
     * 
-    * @var \adLDAP\classes\adLDAPUsers
+    * @var \adLDAP1\classes\adLDAPUsers
     */
     protected $userClass;
     
     /**
     * Get the userclass interface
     * 
-    * @return \adLDAP\classes\adLDAPUsers
+    * @return \adLDAP1\classes\adLDAPUsers
     */
     public function user() {
         if (!$this->userClass) {
-            $this->userClass = new \adLDAP\classes\adLDAPUsers($this);
+            $this->userClass = new \adLDAP1\classes\adLDAPUsers($this);
         }   
         return $this->userClass;
     }
@@ -262,18 +262,18 @@ class adLDAP {
     /**
     * The folders class
     * 
-    * @var \adLDAP\classes\adLDAPFolders
+    * @var \adLDAP1\classes\adLDAPFolders
     */
     protected $folderClass;
     
     /**
     * Get the folder class interface
     * 
-    * @return \adLDAP\classes\adLDAPFolders
+    * @return \adLDAP1\classes\adLDAPFolders
     */
     public function folder() {
         if (!$this->folderClass) {
-            $this->folderClass = new \adLDAP\classes\adLDAPFolders($this);
+            $this->folderClass = new \adLDAP1\classes\adLDAPFolders($this);
         }   
         return $this->folderClass;
     }
@@ -281,18 +281,18 @@ class adLDAP {
     /**
     * The utils class
     * 
-    * @var \adLDAP\classes\adLDAPUtils
+    * @var \adLDAP1\classes\adLDAPUtils
     */
     protected $utilClass;
     
     /**
     * Get the utils class interface
     * 
-    * @return \adLDAP\classes\adLDAPUtils
+    * @return \adLDAP1\classes\adLDAPUtils
     */
     public function utilities() {
         if (!$this->utilClass) {
-            $this->utilClass = new \adLDAP\classes\adLDAPUtils($this);
+            $this->utilClass = new \adLDAP1\classes\adLDAPUtils($this);
         }   
         return $this->utilClass;
     }
@@ -300,18 +300,18 @@ class adLDAP {
     /**
     * The contacts class
     * 
-    * @var \adLDAP\classes\adLDAPContacts
+    * @var \adLDAP1\classes\adLDAPContacts
     */
     protected $contactClass;
     
     /**
     * Get the contacts class interface
     * 
-    * @return \adLDAP\classes\adLDAPContacts
+    * @return \adLDAP1\classes\adLDAPContacts
     */
     public function contact() {
         if (!$this->contactClass) {
-            $this->contactClass = new \adLDAP\classes\adLDAPContacts($this);
+            $this->contactClass = new \adLDAP1\classes\adLDAPContacts($this);
         }   
         return $this->contactClass;
     }
@@ -319,18 +319,18 @@ class adLDAP {
     /**
     * The exchange class
     * 
-    * @var \adLDAP\classes\adLDAPExchange
+    * @var \adLDAP1\classes\adLDAPExchange
     */
     protected $exchangeClass;
     
     /**
     * Get the exchange class interface
     * 
-    * @return \adLDAP\classes\adLDAPExchange
+    * @return \adLDAP1\classes\adLDAPExchange
     */
     public function exchange() {
         if (!$this->exchangeClass) {
-            $this->exchangeClass = new \adLDAP\classes\adLDAPExchange($this);
+            $this->exchangeClass = new \adLDAP1\classes\adLDAPExchange($this);
         }   
         return $this->exchangeClass;
     }
@@ -338,18 +338,18 @@ class adLDAP {
     /**
     * The computers class
     * 
-    * @var \adLDAP\classes\adLDAPComputers
+    * @var \adLDAP1\classes\adLDAPComputers
     */
     protected $computerClass;
     
     /**
     * Get the computers class interface
     * 
-    * @return \adLDAP\classes\adLDAPComputers
+    * @return \adLDAP1\classes\adLDAPComputers
     */
     public function computer() {
         if (!$this->computerClass) {
-            $this->computerClass = new \adLDAP\classes\adLDAPComputers($this);
+            $this->computerClass = new \adLDAP1\classes\adLDAPComputers($this);
         }   
         return $this->computerClass;
     }
