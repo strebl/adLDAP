@@ -888,6 +888,7 @@ class adLDAP {
         if (isset($attributes["fax"])){ $mod["facsimileTelephoneNumber"][0]=$attributes["fax"]; }
         if (isset($attributes["enabled"])){ $mod["userAccountControl"][0]=$attributes["enabled"]; }
         if (isset($attributes["homephone"])){ $mod["homephone"][0]=$attributes["homephone"]; }
+        if (isset($attributes["info"])){ $mod["info"][0]=$attributes["info"]; }
 
         // Distribution List specific schema
         if (isset($attributes["group_sendpermission"])){ $mod["dlMemSubmitPerms"][0]=$attributes["group_sendpermission"]; }
