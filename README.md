@@ -1,3 +1,6 @@
+# DON'T USE THIS PACKAGE!
+Please don't use this package anymore. Use the way way way better Adldap2 Package: https://github.com/Adldap2/Adldap2
+
 # FORK
 This fork is to reflect the [latest changes](https://github.com/adldap/adLDAP/compare/v4.0.4...ee471d2243124dcf29efd8c079456cc56e2fa6e7) on master to packagist.
 
